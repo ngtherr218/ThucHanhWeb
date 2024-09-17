@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Khảo sát ý kiến</title>
+    <link href="bai1.css" rel="stylesheet">
+</head>
+<body>
+    <form>
+        <h1>Khảo sát ý kiến</h1>
+        <p name="a">V/V: Các kĩ năng cần có của sinh viên để thành công trong công việc</p>
+        <p>
+            <b>Theo bạn kĩ năng nào là cần thiết nhất đối với bạn trong số kĩ năng sau: </b>
+        </p>
+
+        <fieldset name="kynang">
+            <legend>Kỹ năng mềm cần có</legend>
+            <table>
+                <tr>
+                    <td>
+                        <input type="checkbox" name="cb" value="Kỹ năng đặt mục tiêu">Kỹ năng đặt mục tiêu<br>
+                        <input type="checkbox" name="cb" value="Sáng tạo trong công việc">Sáng tạo trong công việc<br>
+                        <input type="checkbox" name="cb" value="Biết lắng nghe và học tập những lời phê bình">Biết lắng nghe và học tập những lời phê bình<br>
+                        <input type="checkbox" name="cb" value="Giao tiếp hiệu quả">Giao tiếp hiệu quả<br>
+                        <input type="checkbox" name="cb" value="Tự tin, năng động và biết lôi kéo người khác">Tự tin, năng động và biết lôi kéo người khác<br>
+                    </td>
+                    <td>
+                        <input type="checkbox" name="cb" value="Kỹ năng làm việc đồng đội">Kỹ năng làm việc đồng đội<br>
+                        <input type="checkbox" name="cb" value="Kỹ năng lãnh đạo và khám phá bản thân">Kỹ năng lãnh đạo và khám phá bản thân<br>
+                        <input type="checkbox" name="cb" value="Kỹ năng tổ chức công việc và quản lí thời gian">Kỹ năng tổ chức công việc và quản lí thời gian<br>
+                        <input type="checkbox" name="cb" value="Kỹ năng quyết định">Kỹ năng quyết định<br>
+                        <input type="checkbox" name="cb" value="Kỹ năng giải quyết vấn đề">Kỹ năng giải quyết vấn đề<br>
+                    </td>
+                </tr>
+            </table>
+            <label name="ykien">Ý kiến khác:</label>
+            <textarea name="ykien" width="500px"></textarea>
+        </fieldset>
+
+        <fieldset name="thongtin">
+            <legend>Thông tin cá nhân</legend>
+            <table>
+                <tr>
+                    <td>Họ và tên:<br></td>
+                    <td><input name="hoten" type="text" value=""><br></td>
+                    <td rowspan="3"><img src="./image.png" alt="success"></td>
+                </tr>
+                <tr>
+                    <td>Tuổi:<br></td>
+                    <td>
+                        <select name="tuoi">
+                            <option value="10-20">10-20</option>
+                            <option value="21-30">21-30</option>
+                            <option value="31-40">31-40</option>
+                        </select><br>
+                    </td>   
+                </tr>
+                <tr>
+                    <td>Giới tính:<br></td>
+                    <td>
+                        <input name="gioitinh" type="radio" value="Nam" checked>Nam
+                        <input name="gioitinh" type="radio" value="Nữ">Nữ
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+        <div class="button-container">
+            <input name="reset" type="reset" value="Reset">
+            <input name="submit" type="submit" value="Submit">
+        </div>
+        <p name="a">Cảm ơn bạn đã tham gia khảo sát!</p>
+    </form>
+</body>
+</html>

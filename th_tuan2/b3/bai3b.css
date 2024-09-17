@@ -1,0 +1,111 @@
+* {
+    padding: 0;
+    margin: 0;
+  }
+.main{
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    grid-template-rows: repeat(3,auto);
+}
+.header {
+    grid-column: 1/ span 12;
+    grid-row: 1;
+    padding: 20px;
+    background-color: #d91f28;
+    color: #e3dedc;
+    font-weight: 800;
+}
+.header h1:hover{
+    background: linear-gradient(360deg,#F3FEB8,#FFEB00);
+    background-clip: text;
+    color: transparent;
+}
+.menu{
+    padding: 10px;
+    grid-column: 1/ span 3;
+    grid-row: 2;
+}
+.nav li {
+    margin: 1px;
+    list-style: none;
+    padding: 10px 20px 10px 20px;
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: black;
+    background-color: #e3dedc;
+    border-bottom: #e3dedc 3px solid;
+  }
+.nav li:hover {
+    background: linear-gradient(360deg,#FFB22C,#FFF6EA);
+    border-bottom: #d91f28 3px solid;
+    color: #d91f28;
+}
+
+h2:hover{
+    background: linear-gradient(180deg,#d91f28,#FFB22C);
+    background-clip: text;
+    color: transparent;
+}
+.maincontent{
+    padding: 10px;
+    grid-row: 2;
+    grid-column: 4/ span 6;
+}
+.job a{
+    font-size: 1.3rem;
+    font-weight: 800;
+    color: black;
+    text-decoration: none;
+}
+.job a:hover{
+    background: linear-gradient(180deg,#d91f28,#FFB22C);
+    background-clip: text;
+    color: transparent;
+}
+
+.chitiet{
+    text-align: end;
+}
+.chitiet a{
+    font-size: 1rem;
+    font-weight: 100;
+}
+
+.img{
+    padding: 10px;
+    grid-row: 2;
+    grid-column: 10/ span 3;
+}
+.footer{
+    padding: 10px;
+    background-color: #d91f28;
+    grid-row: 3;
+    grid-column: 1/span 12;
+    color: white;
+    text-align: center;
+}
+
+@media screen and (max-width:768px) {
+    *{
+        background-color: white;
+        color: black;
+    }
+    .main{
+        display: block;
+    }
+}
+@media print {
+    * {
+        background-color: white;
+        color: black;
+    }  
+}
+@media print and (max-width: 768px) {
+    * {
+        background-color: white;
+        color: black;
+    }  
+    .main {
+        display: block;
+    }
+}

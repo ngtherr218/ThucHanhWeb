@@ -1,0 +1,44 @@
+body {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+h2 {
+  color: red;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.a div:nth-child(2) {
+  margin-left: 50px;
+}
+
+.a div:nth-child(2) h3 {
+  color: red;
+  font-style: italic;
+}
+
+.a div:nth-child(1) {
+  margin-left: 20px;
+}
+
+.a {
+  display: flex;
+}
+
+.b {
+  display: flex;
+  justify-content: center; /* Căn giữa theo chiều ngang */
+}
+h2 {
+  text-align: center;
+  color: red;
+}
+figure {
+  text-align: center;
+}
+.nav-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+

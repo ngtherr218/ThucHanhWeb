@@ -1,0 +1,112 @@
+* {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+body {
+  background-color: #060d10;
+}
+.header {
+  color: #21a691;
+  width: 100%;
+}
+.header h2 {
+  background: linear-gradient(270deg, #21a691, #87df2c);
+  background-clip: text;
+  color: transparent;
+  font-size: 2.3rem;
+  width: 100%;
+  text-align: center;
+}
+.header h2:hover {
+  transform: scale(1.03);
+}
+.nav-list {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.nav-list li {
+  list-style: none; /*Xóa bỏ dấu . liệt kê danh sách*/
+  background-color: #27403e;
+  padding: 0.5rem;
+  margin-left: 1px;
+}
+.nav-list a {
+  color: white;
+  font-weight: 700;
+  font-size: 1.1rem;
+  text-decoration: none; /*Xóa bỏ gạch chân của a*/
+}
+.nav-list a:hover {
+  color: #87df2c;
+  border-bottom: 3px solid #87df2c;
+}
+.content {
+  color: white;
+  display: flex;
+}
+figcaption {
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+img {
+  margin-top: 100px;
+  width: 350px;
+  height: 100%;
+  box-shadow: 0 0 25px #21a691;
+  transition: 0.4s ease-in-out;
+}
+img:hover {
+  box-shadow: 0 0 35px #21a691, 0 0 50px #21a691;
+  transform: scale(1.02);
+  transition: 0.4s ease-in-out;
+}
+h3 {
+  background: linear-gradient(180deg, #21a691, #87df2c);
+  background-clip: text;
+  color: transparent;
+}
+@keyframes skewText {
+  0% {
+    transform: skewX(0deg);
+  }
+  50% {
+    transform: skewX(10deg);
+  }
+  100% {
+    transform: skewX(0deg);
+  }
+}
+h3:hover {
+  animation: skewText 0.5s ease-in-out;
+}
+details p {
+  color: #b4b4b2;
+}
+.footer {
+  color: white;
+  text-align: center;
+  margin-top: 30px;
+}
+.footer span {
+  color: #21a691;
+  font-family: "Sofadi One", system-ui;
+  font-weight: 800;
+}
+
+@media screen and (max-width: 900px) {
+  .content {
+    display: block;
+  }
+  figure {
+    text-align: center;
+  }
+  .nav-list{
+    display: inline;
+  }
+  .nav-list li{
+    margin-top: 1px;
+  }
+}

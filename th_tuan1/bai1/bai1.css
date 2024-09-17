@@ -1,0 +1,31 @@
+h1 {
+  color: #ff0000;
+  font-weight: bold;
+  text-align: center;/*căn giữa*/
+  text-transform: uppercase;/*viết hoa*/
+}
+h2 {
+  color: blue;
+  font-style: italic;
+  font-weight: bold;
+}
+li {
+    font-weight: bold;
+}
+p[name="a"]{
+  color: #ff0000;
+  text-align: center;
+}
+.button-container{
+  text-align: right; /* Canh phải */
+  margin-top: 20px; /* Khoảng cách phía trên (tùy chọn) */
+}
+.button-container input {
+  margin-left: 10px; /* Khoảng cách giữa hai nút */
+}
+td{
+  padding-left: 150px;
+}
+label{
+  padding-left: 150px;
+}
