@@ -2,7 +2,7 @@
     padding: 0;
     margin: 0;
   }
-.main{
+body{
     display: grid;
     grid-template-columns: repeat(12,1fr);
     grid-template-rows: repeat(3,auto);
