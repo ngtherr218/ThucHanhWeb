@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div style="border: 2px solid black; display: inline-block; padding: 20px">
+      Danh sách Hãng sản xuất CPU
+      <select id="ds_hang" style="width: 150px; margin-left: 10px"></select>
+      <div id="div_hang" style="visibility: hidden; margin-top: 20px">
+        Hãng<input id="hang" value="" style="margin-left: 10px" />
+      </div>
+      <div style="display: flex; justify-content: end; gap: 5px">
+        <button id="them_luu" onclick="them_luuHang()">Thêm</button>
+        <button id="huy" onclick="huy()">Hủy</button>
+      </div>
+    </div>
+    <script src="bai7.js"></script>
+  </body>
+</html>

@@ -1,0 +1,64 @@
+@font-face {
+    font-family: 'Pacifico-Regular';
+    src: url('./Pacifico-Regular.ttf') format('truetype');
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Pacifico-Regular;
+}
+.content > div{
+    padding-top: 30px;
+}
+.table td{
+    padding-left: 20px;
+    padding-top: 20px;
+    background: linear-gradient(135deg, #477de2, #c804f0, #272eb5, #6e45e2);
+    background-clip: text;
+    color: transparent;
+}
+.table span{
+    font-size: 28px;
+    font-weight: 800;
+}
+.table input {
+    width: 300px;              
+    padding: 10px;
+    border:2px solid white;   
+    background-color: #dae4f8;         
+    border-radius: 5px;        
+    font-size: 20px;          
+    outline: none;             
+    transition: border-color 0.3s ease; 
+}
+.table input:focus{
+    border:2px solid blue;
+}
+#list{
+    padding: 10px;             
+    border:2px solid white;   
+    background-color: #dae4f8;         
+    border-radius: 5px;        
+    font-size: 16px;  
+    outline: none;        
+}
+#list:focus{
+    border:2px solid blue;
+}
+.button{
+    padding-left: 320px;
+}
+.button input{
+    padding: 10px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    background-color: #477de2; 
+    font-size: 20px;
+    transition: 0.3s;
+}
+.button input:hover{
+    transform: scale(1.03);
+}
+
+

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bài 5</title>
+    <!-- <link rel="stylesheet" href="bai5.css" />
+     -->
+  </head>
+  <body>
+    <div class="content" id="content" style="border: 2px solid black; display: inline-block; padding: 10px; width: 30%;">
+      <div>
+        <table class="table" id="table">
+          <tr>
+            <td><span>Chuỗi</span></td>
+            <td>
+              <input
+                type="text"
+                class="input"
+                id="input"
+                value=""
+                placeholder="a,b,c,d,e"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td><span>Danh sách</span></td>
+            <td style="display: flex;">
+              <select id="list" onchange="select()" style="height: 55px;"></select>
+              <p id="notification" style="margin-left: 10px"></p>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="button" id="button">
+        <input
+          type="button"
+          class="execute"
+          id="execute"
+          value="Thực hiện"
+          onclick="execute()"
+        />
+        <input
+          type="button"
+          class="delete"
+          id="delete"
+          value="Hủy"
+          onclick="del()"
+        />
+      </div>
+    </div>
+    <script src="bai5.js"></script>
+  </body>
+</html>

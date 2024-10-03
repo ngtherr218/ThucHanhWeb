@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .table td,
+      .table tr {
+        padding: 10px;
+      }
+      .table{
+        border-collapse: collapse;
+      }
+      .table td {
+        border: 2px solid black;
+      }
+      body > div {
+        border: 2px solid black;
+        display: block;
+        height: 150px;
+        padding: 15px;
+      }
+      body{
+        display: flex; 
+        gap: 20px;
+      }
+      .container-input div {
+        text-align: end;
+      }
+    </style>
+  </head>
+  <body>
+    <table class="table" id="table">
+      <tr>
+        <td>STT</td>
+        <td>Tên VXL</td>
+        <td>Hãng sx</td>
+        <td>Ngày ra mắt</td>
+        <td>Giá vnd</td>
+      </tr>
+    </table>
+    <div class="container-input" id="container-input">
+      <table>
+        <tr>
+          <td>Tên VXL</td>
+          <td><input type="text" id="ten" /></td>
+        </tr>
+        <tr>
+          <td>Hãng</td>
+          <td><input type="text" id="hang" /></td>
+        </tr>
+        <tr>
+          <td>Ngày ra mắt</td>
+          <td><input type="text" id="ngay" placeholder="dd/mm/yyyy" /></td>
+        </tr>
+        <tr>
+          <td>Giá</td>
+          <td><input type="text" id="gia" /></td>
+        </tr>
+      </table>
+      <div class="button" id="button">
+        <button id="btnThem" onclick="them()">Thêm</button>
+        <button id="btnHuy" onclick="huy()">Hủy</button>
+      </div>
+      <p id="thongbao"></p>
+    </div>
+    <script src="bai8.js"></script>
+  </body>
+</html>
