@@ -3,7 +3,7 @@
   "WorkspaceRootPath": "D:\\Project\\Web\\Thuchanh\\th_tuan5\\b10\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D484C680-D381-45D5-82B7-C977F086648C}|b10\\b10.csproj|d:\\project\\web\\thuchanh\\th_tuan5\\b10\\b10\\bai10.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "AbsoluteMoniker": "D:0:0:{D484C680-D381-45D5-82B7-C977F086648C}|b10\\b10.csproj|D:\\Project\\Web\\Thuchanh\\th_tuan5\\b10\\b10\\bai10.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{D484C680-D381-45D5-82B7-C977F086648C}|b10\\b10.csproj|solutionrelative:b10\\bai10.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
@@ -30,9 +30,9 @@
               "Title": "Bai10.aspx.cs",
               "DocumentMoniker": "D:\\Project\\Web\\Thuchanh\\th_tuan5\\b10\\b10\\Bai10.aspx.cs",
               "RelativeDocumentMoniker": "b10\\Bai10.aspx.cs",
-              "ToolTip": "D:\\Project\\Web\\Thuchanh\\th_tuan5\\b10\\b10\\Bai10.aspx.cs*",
-              "RelativeToolTip": "b10\\Bai10.aspx.cs*",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAACMAAAA0AAAAAAAAAA==",
+              "ToolTip": "D:\\Project\\Web\\Thuchanh\\th_tuan5\\b10\\b10\\Bai10.aspx.cs",
+              "RelativeToolTip": "b10\\Bai10.aspx.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABgAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-09T01:54:14.26Z",
               "EditorCaption": ""
