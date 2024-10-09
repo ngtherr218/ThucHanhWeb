@@ -3,11 +3,15 @@
   "WorkspaceRootPath": "D:\\Project\\Web\\Thuchanh\\th_tuan5\\b10\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D484C680-D381-45D5-82B7-C977F086648C}|b10\\b10.csproj|D:\\Project\\Web\\Thuchanh\\th_tuan5\\b10\\b10\\bai10.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "AbsoluteMoniker": "D:0:0:{D484C680-D381-45D5-82B7-C977F086648C}|b10\\b10.csproj|d:\\project\\web\\thuchanh\\th_tuan5\\b10\\b10\\bai10.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{D484C680-D381-45D5-82B7-C977F086648C}|b10\\b10.csproj|solutionrelative:b10\\bai10.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D484C680-D381-45D5-82B7-C977F086648C}|b10\\b10.csproj|d:\\project\\web\\thuchanh\\th_tuan5\\b10\\b10\\bai10.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D484C680-D381-45D5-82B7-C977F086648C}|b10\\b10.csproj|d:\\project\\web\\thuchanh\\th_tuan5\\b10\\b10\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{D484C680-D381-45D5-82B7-C977F086648C}|b10\\b10.csproj|solutionrelative:b10\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D484C680-D381-45D5-82B7-C977F086648C}|b10\\b10.csproj|D:\\Project\\Web\\Thuchanh\\th_tuan5\\b10\\b10\\bai10.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D484C680-D381-45D5-82B7-C977F086648C}|b10\\b10.csproj|solutionrelative:b10\\bai10.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -18,8 +22,22 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Bai10.aspx.cs",
+              "DocumentMoniker": "D:\\Project\\Web\\Thuchanh\\th_tuan5\\b10\\b10\\Bai10.aspx.cs",
+              "RelativeDocumentMoniker": "b10\\Bai10.aspx.cs",
+              "ToolTip": "D:\\Project\\Web\\Thuchanh\\th_tuan5\\b10\\b10\\Bai10.aspx.cs",
+              "RelativeToolTip": "b10\\Bai10.aspx.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABIAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-09T01:54:14.26Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
@@ -27,14 +45,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Bai10.aspx.cs",
-              "DocumentMoniker": "D:\\Project\\Web\\Thuchanh\\th_tuan5\\b10\\b10\\Bai10.aspx.cs",
-              "RelativeDocumentMoniker": "b10\\Bai10.aspx.cs",
-              "ToolTip": "D:\\Project\\Web\\Thuchanh\\th_tuan5\\b10\\b10\\Bai10.aspx.cs",
-              "RelativeToolTip": "b10\\Bai10.aspx.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAABgAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-09T01:54:14.26Z",
+              "Title": "Web.config",
+              "DocumentMoniker": "D:\\Project\\Web\\Thuchanh\\th_tuan5\\b10\\b10\\Web.config",
+              "RelativeDocumentMoniker": "b10\\Web.config",
+              "ToolTip": "D:\\Project\\Web\\Thuchanh\\th_tuan5\\b10\\b10\\Web.config*",
+              "RelativeToolTip": "b10\\Web.config*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-10-09T03:25:02.848Z",
               "EditorCaption": ""
             },
             {
@@ -43,8 +61,8 @@
               "Title": "Bai10.aspx",
               "DocumentMoniker": "D:\\Project\\Web\\Thuchanh\\th_tuan5\\b10\\b10\\Bai10.aspx",
               "RelativeDocumentMoniker": "b10\\Bai10.aspx",
-              "ToolTip": "D:\\Project\\Web\\Thuchanh\\th_tuan5\\b10\\b10\\Bai10.aspx*",
-              "RelativeToolTip": "b10\\Bai10.aspx*",
+              "ToolTip": "D:\\Project\\Web\\Thuchanh\\th_tuan5\\b10\\b10\\Bai10.aspx",
+              "RelativeToolTip": "b10\\Bai10.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
               "WhenOpened": "2024-10-09T01:46:05.413Z",

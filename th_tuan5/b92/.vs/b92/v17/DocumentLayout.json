@@ -7,24 +7,20 @@
       "RelativeMoniker": "D:0:0:{E2B8C98C-F303-4F48-81D5-0A729A076333}|b92\\b92.csproj|solutionrelative:b92\\b9.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E2B8C98C-F303-4F48-81D5-0A729A076333}|b92\\b92.csproj|d:\\project\\web\\thuchanh\\th_tuan5\\b92\\b92\\xuly2.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E2B8C98C-F303-4F48-81D5-0A729A076333}|b92\\b92.csproj|D:\\Project\\Web\\Thuchanh\\th_tuan5\\b92\\b92\\xuly2.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E2B8C98C-F303-4F48-81D5-0A729A076333}|b92\\b92.csproj|solutionrelative:b92\\xuly2.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E2B8C98C-F303-4F48-81D5-0A729A076333}|b92\\b92.csproj|d:\\project\\web\\thuchanh\\th_tuan5\\b92\\b92\\xuly2.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{E2B8C98C-F303-4F48-81D5-0A729A076333}|b92\\b92.csproj|solutionrelative:b92\\xuly2.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E2B8C98C-F303-4F48-81D5-0A729A076333}|b92\\b92.csproj|d:\\project\\web\\thuchanh\\th_tuan5\\b92\\b92\\xuly.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E2B8C98C-F303-4F48-81D5-0A729A076333}|b92\\b92.csproj|D:\\Project\\Web\\Thuchanh\\th_tuan5\\b92\\b92\\xuly.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E2B8C98C-F303-4F48-81D5-0A729A076333}|b92\\b92.csproj|solutionrelative:b92\\xuly.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E2B8C98C-F303-4F48-81D5-0A729A076333}|b92\\b92.csproj|d:\\project\\web\\thuchanh\\th_tuan5\\b92\\b92\\xuly.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{E2B8C98C-F303-4F48-81D5-0A729A076333}|b92\\b92.csproj|solutionrelative:b92\\xuly.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+      "AbsoluteMoniker": "D:0:0:{E2B8C98C-F303-4F48-81D5-0A729A076333}|b92\\b92.csproj|D:\\Project\\Web\\Thuchanh\\th_tuan5\\b92\\b92\\xuly2.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{E2B8C98C-F303-4F48-81D5-0A729A076333}|b92\\b92.csproj|solutionrelative:b92\\xuly2.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E2B8C98C-F303-4F48-81D5-0A729A076333}|b92\\b92.csproj|d:\\project\\web\\thuchanh\\th_tuan5\\b92\\b92\\js.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{E2B8C98C-F303-4F48-81D5-0A729A076333}|b92\\b92.csproj|solutionrelative:b92\\js.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+      "AbsoluteMoniker": "D:0:0:{E2B8C98C-F303-4F48-81D5-0A729A076333}|b92\\b92.csproj|D:\\Project\\Web\\Thuchanh\\th_tuan5\\b92\\b92\\xuly.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{E2B8C98C-F303-4F48-81D5-0A729A076333}|b92\\b92.csproj|solutionrelative:b92\\xuly.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,8 +30,22 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "b9.html",
+              "DocumentMoniker": "D:\\Project\\Web\\Thuchanh\\th_tuan5\\b92\\b92\\b9.html",
+              "RelativeDocumentMoniker": "b92\\b9.html",
+              "ToolTip": "D:\\Project\\Web\\Thuchanh\\th_tuan5\\b92\\b92\\b9.html",
+              "RelativeToolTip": "b92\\b9.html",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAABQAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-10-09T02:33:24.38Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
@@ -48,14 +58,14 @@
               "RelativeDocumentMoniker": "b92\\Xuly2.aspx.cs",
               "ToolTip": "D:\\Project\\Web\\Thuchanh\\th_tuan5\\b92\\b92\\Xuly2.aspx.cs",
               "RelativeToolTip": "b92\\Xuly2.aspx.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAwwBIAAAA0AAAAAAAAAA==",
+              "ViewState": "AgIAABcAAAAAAAAAAAAwwC4AAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-09T03:00:30.9Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Xuly2.aspx",
               "DocumentMoniker": "D:\\Project\\Web\\Thuchanh\\th_tuan5\\b92\\b92\\Xuly2.aspx",
               "RelativeDocumentMoniker": "b92\\Xuly2.aspx",
@@ -68,26 +78,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "js.js",
-              "DocumentMoniker": "D:\\Project\\Web\\Thuchanh\\th_tuan5\\b92\\b92\\js.js",
-              "RelativeDocumentMoniker": "b92\\js.js",
-              "ToolTip": "D:\\Project\\Web\\Thuchanh\\th_tuan5\\b92\\b92\\js.js",
-              "RelativeToolTip": "b92\\js.js",
-              "ViewState": "AgIAADYAAAAAAAAAAAAAAA4AAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2024-10-09T02:38:14.101Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "Xuly.aspx.cs",
               "DocumentMoniker": "D:\\Project\\Web\\Thuchanh\\th_tuan5\\b92\\b92\\Xuly.aspx.cs",
               "RelativeDocumentMoniker": "b92\\Xuly.aspx.cs",
               "ToolTip": "D:\\Project\\Web\\Thuchanh\\th_tuan5\\b92\\b92\\Xuly.aspx.cs",
               "RelativeToolTip": "b92\\Xuly.aspx.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAwwA4AAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAABkAAAAAAAAAAAAowCsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-09T02:35:38.733Z",
               "EditorCaption": ""
@@ -103,19 +100,6 @@
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
               "WhenOpened": "2024-10-09T02:35:25.44Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "b9.html",
-              "DocumentMoniker": "D:\\Project\\Web\\Thuchanh\\th_tuan5\\b92\\b92\\b9.html",
-              "RelativeDocumentMoniker": "b92\\b9.html",
-              "ToolTip": "D:\\Project\\Web\\Thuchanh\\th_tuan5\\b92\\b92\\b9.html",
-              "RelativeToolTip": "b92\\b9.html",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA+AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2024-10-09T02:33:24.38Z",
               "EditorCaption": ""
             }
           ]

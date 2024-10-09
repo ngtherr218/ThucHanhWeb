@@ -18,37 +18,33 @@ namespace b92
             string ngay = Request.QueryString["ngay"];
             string gia = Request.QueryString["gia"];
 
-            // Tạo một tài liệu XML
             XmlDocument doc = new XmlDocument();
             XmlElement root = doc.CreateElement("SanPham");
 
-            // Thêm phần tử con cho tên
             XmlElement tenElement = doc.CreateElement("Ten");
             tenElement.InnerText = ten;
             root.AppendChild(tenElement);
 
-            // Thêm phần tử con cho hãng
             XmlElement hangElement = doc.CreateElement("Hang");
             hangElement.InnerText = hang;
             root.AppendChild(hangElement);
 
-            // Thêm phần tử con cho ngày sản xuất
             XmlElement ngayElement = doc.CreateElement("NgaySanXuat");
             ngayElement.InnerText = ngay;
             root.AppendChild(ngayElement);
 
-            // Thêm phần tử con cho giá
             XmlElement giaElement = doc.CreateElement("Gia");
             giaElement.InnerText = gia;
             root.AppendChild(giaElement);
 
-            // Thêm phần tử gốc vào tài liệu
             doc.AppendChild(root);
 
-            // Thiết lập kiểu nội dung và xuất XML
-            Response.ContentType = "text/xml"; // Thiết lập kiểu nội dung là XML
-            Response.Write(doc.OuterXml); // Xuất XML ra trình duyệt
-            Response.End(); // Kết thúc phản hồi để ngăn không xuất thêm nội dung
+            string filePath = Server.MapPath("~/App_Data/SanPham.xml");
+            doc.Save(filePath);
+
+            Response.ContentType = "text/xml";
+            Response.Write(doc.OuterXml);
+            Response.End();
         }
     }
 }
